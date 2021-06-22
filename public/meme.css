@@ -1,0 +1,19 @@
+body { font-family: 'Nunito', sans-serif }
+.container { display: flex; justify-content: center; }
+input { border: 1px solid black; }
+canvas { border: 1px solid black; }
+.meme-imgs { display:flex }
+.meme-img { width: 32% }
+
+.meme {
+    height: 300px; 
+    width: 300px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.meme-text {
+    background: white;
+}
